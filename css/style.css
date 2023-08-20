@@ -3,6 +3,76 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    /* 
+        --colorNavbar: rgba(17, 17, 255, 0.753);
+    */
+    --colorNavbar: rgba(13, 110, 253, 0.753);
+}
+
+
+html, body, .first-section-class, .second-container-class {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/*************************** 
+            HEADER 
+***************************/
+
+header nav {
+    background-color: var(--colorNavbar);
+}
+
+/* BRAND */
+.brand-a-class {
+    padding: 20px 0;
+}
+
+/* HAMBURGUER */
+.navbar-light, .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.1);
+}
+
+/* MENU */
+.container-menu-class a { 
+    color: white;
+    text-align: center;
+}
+
+.container-menu-class a:hover {
+    color: yellow;
+}
+
+
+
+/*************************** 
+            SECTION 
+***************************/
+
+.container-btn-class {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.btn-custom-class {
+    color: white;
+    border-radius: 500px;
+    text-transform: uppercase;
+    transition: background .4s, color .4s;
+    padding: 10px 20px;
+}
+
+.first-section-class {
+    background-color: lightgray;
+}
+
+.second-container-class {
+    background-color: var(--colorNavbar);
+    padding: 20px;
 }
