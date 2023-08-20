@@ -77,6 +77,43 @@ header nav {
     padding: 20px;
 }
 
+.container-info-class {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.second-container-class img {
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.second-container-class h3 {
+    font-size: 1.3em;
+}
+
+.second-container-class p {
+    font-size: .9em;
+}
+
+.button-info-class {
+    background-color: white;
+    color: var(--colorNavbar);
+}
+
+.button-info-class:hover {
+    background-color: var(--colorNavbar);
+    color: white;
+}
+
+.container-img-class {
+    text-align: center;
+}
+
+.container-button-class {
+    text-align: right;
+}
+
 
 /*************************** 
             FOOTER 
