@@ -90,10 +90,13 @@ header nav {
 
 .second-container-class h3 {
     font-size: 1.3em;
+    color: white;
+    font-weight: bold;
 }
 
 .second-container-class p {
     font-size: .9em;
+    color: white;
 }
 
 .button-info-class {
