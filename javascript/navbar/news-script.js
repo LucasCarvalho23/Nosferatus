@@ -1,9 +1,7 @@
-import NavBar from '../script.js'
-
 class NewsNavbar {
 
     constructor() {
-         
+
     }
 
 
