@@ -1,3 +1,5 @@
+import 
+
 class NewsNavbar {
 
     constructor() {

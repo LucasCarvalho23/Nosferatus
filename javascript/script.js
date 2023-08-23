@@ -14,6 +14,8 @@ export default class Test {
         //Transform the values on object
         this.insertValuesFunc()
 
+        console.log (this.newsValues)
+
     }
 
     insertValuesFunc() {
