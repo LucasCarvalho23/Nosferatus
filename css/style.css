@@ -10,14 +10,21 @@
 :root {
     /* 
         --colorNavbar: rgba(17, 17, 255, 0.753);
+        --colorNavbar: rgba(13, 110, 253, 0.753);
     */
-    --colorNavbar: rgba(13, 110, 253, 0.753);
+    --colorNavbar: #b01117;
+    --colorHover: white;
+    --secColor: rgb(119, 119, 119);
 }
 
 
 html, body, .first-section-class {
     height: 100%;
     overflow-x: hidden;
+}
+
+.insert-margin-class {
+    margin-left: 1px;
 }
 
 /*************************** 
@@ -46,7 +53,8 @@ header nav {
 }
 
 .container-menu-class a:hover {
-    color: yellow;
+    font-weight: bold;
+    color: var(--colorHover);
 }
 
 
@@ -73,7 +81,7 @@ header nav {
 }
 
 .second-container-class {
-    background-color: var(--colorNavbar);
+    background-color: var(--secColor);
     padding: 20px;
 }
 
@@ -102,11 +110,11 @@ header nav {
 
 .button-info-class {
     background-color: white;
-    color: var(--colorNavbar);
+    color: var(--secColor);
 }
 
 .button-info-class:hover {
-    background-color: var(--colorNavbar);
+    background-color: black;
     color: white;
 }
 
