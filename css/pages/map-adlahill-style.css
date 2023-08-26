@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.center-class {
+    text-align: center;
+}
+
+
+@media (max-width: 992px) {
+    .adlahill-map-class {
+        width: 500px;
+    }
+}
+
+
+@media (min-width: 993px) {
+    .adlahill-map-class {
+        width: 900px;
+        margin-top: 50px;
+    }
+}
