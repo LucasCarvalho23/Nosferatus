@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.green-color-class {
+    background: linear-gradient(to right, #00774d, transparent);   
+}
+
+.purple-color-class {
+    background: linear-gradient(to right, #9534f6, transparent);   
+}
+
+.red-color-class {
+    background: linear-gradient(to right, #da2524, transparent);   
+}
+
+.yellow-color-class {
+    background: linear-gradient(to right, #998306, transparent);   
+}
+
+.gray-color-class {
+    background: linear-gradient(to right, #636364, transparent);   
+}
+
+section {
+    margin-top: 50px;
+}
+
+section > h2 {
+    font-size: 1.4em;
+    padding: 7px;
+    color: white;
+}
