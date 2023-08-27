@@ -20,6 +20,11 @@
     background: linear-gradient(to right, #636364, transparent);   
 }
 
+.initial-p-class {
+    font-size: 1.1em;
+    padding: 30px;
+}
+
 section {
     margin-top: 50px;
 }
