@@ -11,10 +11,11 @@
     /* 
         --colorNavbar: rgba(17, 17, 255, 0.753);
         --colorNavbar: rgba(13, 110, 253, 0.753);
+        --secColor: rgb(119, 119, 119);
     */
     --colorNavbar: #b01117;
     --colorHover: white;
-    --secColor: rgb(119, 119, 119);
+    --secColor: rgb(81, 80, 80);
 }
 
 
