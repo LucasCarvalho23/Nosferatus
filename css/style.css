@@ -11,11 +11,11 @@
     /* 
         --colorNavbar: rgba(17, 17, 255, 0.753);
         --colorNavbar: rgba(13, 110, 253, 0.753);
-        --secColor: rgb(119, 119, 119);
+        --secColor: rgb(119, 119, 119); b01117 rgb(81, 80, 80)
     */
-    --colorNavbar: #b01117;
+    --colorNavbar: #1a2b57;
     --colorHover: white;
-    --secColor: rgb(81, 80, 80);
+    --secColor: #1a2b57;
 }
 
 
@@ -70,11 +70,18 @@ header nav {
 }
 
 .btn-custom-class {
+    background-color: var(--colorNavbar);
     color: white;
     border-radius: 500px;
     text-transform: uppercase;
     transition: background .4s, color .4s;
     padding: 10px 20px;
+}
+
+.btn-custom-class:hover {
+    background-color: white;
+    color: var(--colorNavbar);
+    border: 1px solid var(--colorNavbar);
 }
 
 .first-section-class {
@@ -111,12 +118,13 @@ header nav {
 
 .button-info-class {
     background-color: white;
-    color: var(--secColor);
+    color: var(--colorNavbar);
 }
 
 .button-info-class:hover {
-    background-color: black;
+    background-color: var(--colorNavbar);
     color: white;
+    border: 1px solid white;
 }
 
 .container-img-class {
@@ -125,6 +133,15 @@ header nav {
 
 .container-button-class {
     text-align: right;
+}
+
+.button-news-class {
+    background-color: var(--colorNavbar);
+    color: white;
+}
+
+.button-news-class:hover {
+    border: 1px solid var(--colorNavbar);
 }
 
 

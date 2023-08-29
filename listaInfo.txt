@@ -1,0 +1,11 @@
+{
+ 	"search": {
+		"title": "Horários de Atendimento",
+		"description": "Horário de atendimento dos setores da GuaratibaNet e da loja.",
+		"tags": "horario, lojas", 
+		"link": "https://guaratibanet.github.io/PortalGuaratibanet/pages/index-horarios.html"
+	}
+}
+
+
+this.jsonTest = '{ "search": { "title":"Horários de Atendimento","description":"Horário de atendimento dos setores da GuaratibaNet e da loja", "tags":"horario, lojas","link":"https://guaratibanet.github.io/PortalGuaratibanet/pages/index-horarios.html" } }'
